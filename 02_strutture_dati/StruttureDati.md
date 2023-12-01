@@ -52,7 +52,7 @@ Tipicamente le operazioni di queste strutture si dividono in:
 ## Array dinamici
 
 Le strutture di dati dinamiche possono essere pensate in termini di oggetti, in quanto sono composte da dati e da un insieme di operazioni che agiscono sui dati. Per implementare le strutture di dati dinamiche non possono essere usate strutture statiche come gli array, poi che la loro dimensione è fissa.
-Per implementare le strutture di dati dinamiche si usano strutture dati dinamiche, che sono strutture dati che possono cambiare dimensione durante l’esecuzione del programma. Le strutture dati dinamiche più semplici sono gli array dinamici, che sono array che possono cambiare dimensione durante l’esecuzione del programma.
+Per implementare le strutture di dati dinamiche si usano strutture dati che possono cambiare dimensione durante l’esecuzione del programma. Le strutture dati dinamiche più semplici sono gli array dinamici, che sono array che possono cambiare dimensione durante l’esecuzione del programma.
 Java rende disponibile una struttura dati di questo tipo attraverso la classe **Vector** inclusa nel package **java.util**.
 
 ---
@@ -66,7 +66,7 @@ Questa classe implementa un array di oggetti dinamico nel senso che è basata su
 
 ## Vector
 
-Come per gli array, gli elementi di un Vector sono indicizzati da un numero intero che va da 0 a n-1, dove n è il numero di elementi contenuti nel Vector. Per accedere agli elementi di un Vector si usa l’operatore di accesso agli array `[]`. Per esempio, se `v` è un `Vector`, `v[0]` è il primo elemento di `v`, `v[1]` è il secondo elemento di `v`, e così via.
+Come per gli array, gli elementi di un Vector sono indicizzati da un numero intero che va da 0 a n-1, dove n è il numero di elementi contenuti nel Vector. Per accedere agli elementi di un Vector si usa il metodo `elementAt(int index)`, che restituisce l’elemento in posizione index.
 
 Per dichiarare un `Vector` ci sono 3 diversi costruttori:
 
