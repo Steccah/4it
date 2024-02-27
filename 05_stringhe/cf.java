@@ -88,8 +88,8 @@ public class cf {
 
         // Carattere di controllo
         String alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int[] dispari = { 1, 0, 5, 7, 9, 13, 15, 17, 19, 21, 1, 0, 5, 7, 9, 13, 15, 17, 19, 21, 2, 4, 18, 20, 11, 3, 6,
-                8, 12, 14, 16, 10, 22, 25, 24, 23 };
+        int[] dispari = { 1, 0, 5, 7, 9, 13, 15, 17, 19, 21, 2, 4, 18, 20, 11, 3, 6, 8, 12, 14, 16, 10, 22, 25, 24,
+                23 };
         int somma = 0;
 
         for (int i = 0; i < cf.length(); i++) {
