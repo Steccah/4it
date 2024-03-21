@@ -141,6 +141,3 @@ Per ignorare file è possibile creare un file `.gitignore` nella root del reposi
 # Ignora il file .env
 .env
 ```
-
----
-
